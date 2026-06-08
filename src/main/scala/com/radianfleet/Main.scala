@@ -9,7 +9,7 @@ def main = {
   val exchangeRateHistoryLoader = ExchangeRateHistoryLoader.live
   val exchangeRepository = ExchangeRepository.live
 
-  val inputDate = LocalDate.of(2026, 6, 6)
+  val inputDate = LocalDate.of(2026, 4, 29)
   val inputBaseCurrency = "EUR"
   val inputTargetCurrency = "USD"
   val inputAmount = BigDecimal(100.0)
